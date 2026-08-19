@@ -34,5 +34,19 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "overrides": {
+    "svgo": {
+      "js-yaml": "^3.15.1"
+    },
+    "@istanbuljs/load-nyc-config": {
+      "js-yaml": "^3.15.1"
+    },
+    "eslint": {
+      "js-yaml": "^4.3.1"
+    },
+    "@eslint/eslintrc": {
+      "js-yaml": "^4.3.1"
+    }
   }
 }
